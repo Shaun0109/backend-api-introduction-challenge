@@ -17,6 +17,8 @@ You can test the functional specification using Bruno. Later, part 2 we will cre
 - Bruno for API interaction and tests
 - Git account (you must make a repository for this project)
 - VSCodium or Goland for working on your code
+- Docker for creating postgres database
+- Database Manager like DBeaver
 
 Please add me (`Shaun0109`) as your maintainer to your github project. As you complete specific things, you should create a commit and push up your code so that it is version controlled. You could even create `Pull Requests` if you need me to review some of your code and provide insight.
 
