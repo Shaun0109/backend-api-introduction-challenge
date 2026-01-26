@@ -1,21 +1,23 @@
-# **Backend API Challenge**
+# **Golang Backend API Challenge**
 
 ## SYNOPSIS
 
-A company is designing an application to create and manage to-dos in order to assist with everyday tasks and time management. You are required to write the backend that will allow you to create, update and retrieve these to-dos through the use of a RESTful HTTP API. In order to keep the scope small, you do not need to take users into account.
-
-- Please create this backend in golang. Your database for storing things should be a postgresql.
-- You can use [gofibre](https://gofiber.io/) as your web framework for HTTP.
-- For the database, you must use go's package `"database/sql"`.
+A company is designing a [Go](https://go.dev/) application to create and manage TODO's in order to assist with everyday tasks and time management. You are required to write the go backend that will allow you to create, update and retrieve these to-dos through the use of a RESTful HTTP API. In order to keep the scope small, you do not need to take users into account.
 
 You are given the functional specification and technical requirements of the API. The functional specification is the functionality that the frontend expects the backend API to be capable of performing. The technical requirements are the standards the backend must meet.
 
 You can test the functional specification using Bruno. Later, part 2 we will create the frontend that interacts with this project.
 
+## REQUIREMENTS
+- Coding Language:  Golang * REQUIRED
+- Database:         Postgres * REQUIRED
+- Database Access:  Your choice e.g. `database/sql`/ any ORM
+- Web Framework:    Your choice e.g. [gofibre](https://gofiber.io/) or [echo](https://echo.labstack.com/)
+
 ## PREREQUISITES
 - Golang installed
 - Bruno for API interaction and tests
-- Git account (you must make a repository for this project)
+- Git account (you must make a repository for this project and share it with us so we can have a look)
 - VSCodium or Goland for working on your code
 - Docker for creating postgres database
 - Database Manager like DBeaver
@@ -32,7 +34,7 @@ Please add me (`Shaun0109`) as your maintainer to your github project. As you co
 
     _Keep in mind that not every field should necessarily be able to update. Restrict the route to only allow fields that make logical sense to update._
 
-3. **<span style="text-decoration:underline;">A user must be able to delete an existing to-do</span>**
+3. **<span style="text-decoration:underline;">A user must be able to delete (DELETE) an existing to-do</span>**
 4. **<span style="text-decoration:underline;">A user must be able to retrieve (GET) all to-dos</span>**
 5. **<span style="text-decoration:underline;">A user must be able to sort to-dos by priority or by deadline, both ascending and descending</span>**
 
